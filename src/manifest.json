@@ -32,6 +32,11 @@
       "run_at": "document_end",
       "matches": ["https://app.webmate.io/console/*"],
       "js": ["webmateKeyToggles.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": ["https://app.webmate.io/console/*"],
+      "js": ["webmatePaste.js"]
     }
   ],
   "permissions": [
